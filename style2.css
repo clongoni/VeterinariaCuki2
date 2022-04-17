@@ -1,10 +1,5 @@
 /*EDICION PROPIEDADES DE BODY*/
 
-body{
-    background-image: url("img/fondo.jpg");
-    background-size: 100rem;
-}
-
 /*EDICION PROPIEDADES DIV MENU*/
 
 .titulo{
@@ -38,21 +33,19 @@ div#menu table#tabla-menu td{
 
 div#texto h1{
     text-align: center;
-    color: white;
+    color: black;
 }
 .parrafoA{
     text-align: center;
-    color: white;
+    color: black;
 }
-.parrafoB{
-    text-align: center;
-    color: white;
-    font-size: x-large;
-}
-
-div#texto div#boton{
+div#texto div#botones{
     margin-top: 10px;
     text-align: center;
+}
+div#imagen1{
+    text-align: center;
+    margin-top: 10px;
 }
 
 /*EDICION PROPIEDADES DIV CONTACTO*/
@@ -62,7 +55,7 @@ div#contacto table#tabla-contacto{
     margin-top: 200px;
 }
 div#contacto p{
-    color: white;
+    color: black;
     text-align: center;
     font-size: large;
     font-weight: bolder;
