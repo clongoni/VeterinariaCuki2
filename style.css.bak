@@ -49,22 +49,6 @@ div#texto div#boton{
     margin-top: 10px;
     text-align: center;
 }
-.parrafoC{
-    text-align: center;
-    color: black;
-}
-div#texto2 div#botones{
-    margin-top: 10px;
-    text-align: center;
-}
-div#imagen1{
-    text-align: center;
-    margin-top: 10px;
-}
-div#texto2 h1{
-    text-align: center;
-    color: black;
-}
 
 /*EDICION PROPIEDADES DIV CONTACTO*/
 
@@ -72,18 +56,8 @@ div#contacto table#tabla-contacto{
     margin: auto;
     margin-top: 200px;
 }
-div#contacto2 table#tabla-contacto{
-    margin: auto;
-    margin-top: 200px;
-}
 div#contacto p{
     color: white;
-    text-align: center;
-    font-size: large;
-    font-weight: bolder;
-}
-div#contacto2 p{
-    color: black;
     text-align: center;
     font-size: large;
     font-weight: bolder;
