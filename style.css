@@ -22,11 +22,6 @@ div#texto h1{
     text-align: center;
     color: white;
 }
-div#texto p{
-    text-align: center;
-    color: white;
-    
-}
 div#contacto table#tabla-contacto{
     margin: auto;
     margin-top: 100px;
@@ -35,4 +30,12 @@ div#contacto p{
     color: white;
     text-align: center;
     font-size: large;
+}
+.parrafoA{
+    text-align: center;
+    color: white;
+}
+.parrafoB{
+    text-align: center;
+    color: white;
 }
