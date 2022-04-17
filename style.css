@@ -2,19 +2,6 @@
 
 /*EDICION PROPIEDADES DIV MENU*/
 
-.titulo{
-    color: white;
-    font-weight: bolder;
-}
-.titulo{
-    width: 150px;
-}
-div#menu{
-    background-color: rgb(116,65,20);
-}
-div#menu table#tabla-menu p{
-    color: white;
-}
 div#menu table#tabla-menu td{
     margin-left: 10px;
 }
