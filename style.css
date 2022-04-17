@@ -65,7 +65,37 @@ div#texto2 h1{
     text-align: center;
     color: black;
 }
-
+div#texto3 table#tabla-texto3 td{
+    padding-right: 5px;
+    text-align: center;
+}
+.img-nosotros1{
+    max-width: 40%;
+    max-height: 40%;
+}
+.img-nosotros2{
+    padding-left: 5px;
+    max-width: 120%;
+    max-height: 120%;
+}
+.img-servicios1{
+    padding: 5px;
+    width: 300px;
+    height: 205px;
+}
+div#img-servicios{
+    border: 2px solid black;
+    background-color: rgb(236, 235, 248);
+    padding: 30px;
+}
+div#img-servicios table#tabla-servicios{
+    border: 2px solid black;
+}
+div#img-servicios table#tabla-servicios td{
+    text-align: center;
+    border: 2px solid black;
+    padding: 1%;
+}
 /*EDICION PROPIEDADES DIV CONTACTO*/
 
 div#contacto table#tabla-contacto{
@@ -74,7 +104,7 @@ div#contacto table#tabla-contacto{
 }
 div#contacto2 table#tabla-contacto{
     margin: auto;
-    margin-top: 200px;
+    margin-top: 20px;
 }
 div#contacto p{
     color: white;
