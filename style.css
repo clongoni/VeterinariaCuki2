@@ -44,15 +44,11 @@ div#texto h1{
     color: white;
     font-size: x-large;
 }
-
 div#texto div#boton{
     margin-top: 10px;
     text-align: center;
 }
-.parrafoC{
-    text-align: center;
-    color: black;
-}
+
 div#texto2 div#botones{
     margin-top: 10px;
     text-align: center;
@@ -65,10 +61,7 @@ div#texto2 h1{
     text-align: center;
     color: black;
 }
-div#texto3 table#tabla-texto3 td{
-    padding-right: 5px;
-    text-align: center;
-}
+
 .img-nosotros1{
     max-width: 40%;
     max-height: 40%;
@@ -88,14 +81,20 @@ div#img-servicios{
     background-color: rgb(236, 235, 248);
     padding: 30px;
 }
-div#img-servicios table#tabla-servicios{
-    border: 2px solid black;
-}
 div#img-servicios table#tabla-servicios td{
+    background-color: white;
     text-align: center;
-    border: 2px solid black;
     padding: 1%;
 }
+
+/*EDICION PROPIEDADES DIV FORMULARIO DE CONTACTO*/
+
+.formulario{
+    margin: 25px;
+    padding: 50px;
+    background-color: rgb(173, 176, 230);
+}
+
 /*EDICION PROPIEDADES DIV CONTACTO*/
 
 div#contacto table#tabla-contacto{
@@ -105,16 +104,4 @@ div#contacto table#tabla-contacto{
 div#contacto2 table#tabla-contacto{
     margin: auto;
     margin-top: 20px;
-}
-div#contacto p{
-    color: white;
-    text-align: center;
-    font-size: large;
-    font-weight: bolder;
-}
-div#contacto2 p{
-    color: black;
-    text-align: center;
-    font-size: large;
-    font-weight: bolder;
 }
