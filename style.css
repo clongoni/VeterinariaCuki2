@@ -1,35 +1,28 @@
+/*EDICION PROPIEDADES DE BODY*/
+
 body{
     background-image: url("img/fondo.jpg");
     background-size: 100rem;
 }
+
+/*EDICION PROPIEDADES DIV MENU*/
+
 .titulo{
     color: white;
     font-weight: bolder;
 }
 div#menu{
-
     background-color: rgb(116,65,20);
 }
 div#menu table#tabla-menu p{
     color: white;
 }
-div#menu table#tabla-menu .titulo{
-    color: white;
-    font-weight: bolder;
-}
+
+/*EDICION PROPIEDADES DIV TEXTO O CUERPO DE PAGINA*/
 
 div#texto h1{
     text-align: center;
     color: white;
-}
-div#contacto table#tabla-contacto{
-    margin: auto;
-    margin-top: 100px;
-}
-div#contacto p{
-    color: white;
-    text-align: center;
-    font-size: large;
 }
 .parrafoA{
     text-align: center;
@@ -38,4 +31,17 @@ div#contacto p{
 .parrafoB{
     text-align: center;
     color: white;
+    font-size: x-large;
+}
+
+/*EDICION PROPIEDADES DIV CONTACTO*/
+
+div#contacto table#tabla-contacto{
+    margin: auto;
+    margin-top: 200px;
+}
+div#contacto p{
+    color: white;
+    text-align: center;
+    font-size: large;
 }
