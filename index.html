@@ -36,6 +36,8 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contacto.html">Contacto</a>
                 </li>
+                    <button type="button" class="btn btn-info" onclick="funcionSuscripcion()">Suscripcion</button>
+                </li>
             </ul>
         </div>
     </nav>
@@ -78,5 +80,15 @@
             <p class="lead" style="text-align: center;">Veterinaria Cuki - Luis Agote 250 B° Mirador</p>
             <p class="lead" style="text-align: center;">Hecho con <span class="mark">Bootstrap</span> por <a href="#">@clongoni</a></p>
     </div>
+    <script>
+        function funcionSuscripcion(){
+            alert("las suscripciones se habilitarán pronto");
+            let contactar = confirm("¿Desea dejar una consulta?");
+            if(contactar){
+                window.location.href="contacto.html"
+                console.log(window.location.href);
+            }
+        }
+    </script>
 </body>
 </html>
