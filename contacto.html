@@ -13,29 +13,36 @@
 
 <body>
                 <!--SECCION MENU PRINCIPAL-->
-
-    <div id="menu" style="background-color: rgb(173, 176, 230)">
-        <table id="tabla-menu">
-            <tr>
-                <td>
-                    <img id="logo" width="50" height="50" src="img/logo.png">
-                </td>
-                <td class="titulo">
-                    <p style="color: white; font-weight: bolder; width: 150px;">Veterinaria Cuki</p>
-                </td>
-                <td class="botones">
-                    <a href="index.html"><button type="button" class="btn">Inicio</button></a>
-                    <a href="nosotros.html"><button type="button" class="btn">Nosotros</button></a>
-                    <a href="servicios.html"><button type="button" class="btn">Servicios</button></a>
-                    <a href="contacto.html"><button type="button" class="btn">Contacto</button></a>
-                </td>
-            </tr>
-        </table>
-    </div>
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo.png" alt="Avatar Logo" style="width:40px;"> 
+                    </a> 
+                </li>
+                <li>
+                    <a class="navbar-brand" href="index.html">Veterinaria Cuki</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
         
                 <!--SECCION CUERPO DE PAGINA-->
-    <div id="texto2">
-        <h1 id="titulo">Dejanos tu mensaje</h1>
+    <div>
+        <h1 style="text-align: center;">Dejanos tu mensaje</h1>
         <table>
             <tr>
                 <td style="width:25%"></td>
@@ -46,7 +53,7 @@
                 <td style="width:25%"></td>
             </tr>
         </table>
-        <div class="formulario">
+        <div style="margin: 25px; padding: 50px; background-color: rgb(173, 176, 230);">
             <form action="">
                 <label for="formControlInput" class="form-label">Nombre</label>
                 <input type="name" class="form-control" id="formControlInput" placeholder="Juan Perez">
