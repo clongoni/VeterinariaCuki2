@@ -57,10 +57,10 @@
                 <label for="formControlInput" class="form-label">Email address</label>
                 <input type="email" class="form-control" id="formControlInput" placeholder="name@example.com">
                 
-                <label for="comment">Mensaje</label>
-                <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Dejanos tu mensaje"></textarea>
+                <label for="formControlInput" class="form-label">Mensaje</label>
+                <input type="message" class="form-control" id="formControlInput" placeholder="Tu mensaje">
 
-                <input type="submit" class="btn btn-secondary" style="margin-top: 5px">
+                <input type="submit" class="btn btn-secondary">
             </form>
         </div>
     </div>

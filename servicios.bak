@@ -14,7 +14,7 @@
 <body>
                 <!--SECCION MENU PRINCIPAL-->
 
-    <div id="menu" style="background-color: rgb(173, 176, 230)">
+    <div id="menu" style="background-color: rgb(236, 235, 248);">
         <table id="tabla-menu">
             <tr>
                 <td>
@@ -35,36 +35,40 @@
         
                 <!--SECCION CUERPO DE PAGINA-->
     <div id="texto2">
-        <h1 id="titulo">Dejanos tu mensaje</h1>
         <table>
             <tr>
                 <td style="width:25%"></td>
-                <td style="width:50%;">
-                    <p class="text-sm-center">Dejanos tu consulta. Nuestros profesionales se pondran en contacto
-                         a la brevedad para brindarte la mejor atencion a vos y a tu mascota</p>
+                <td style="width:50%">
+                    <h1 id="titulo">Servicios</h1>
+                    <p class="parrafoC">Nuestro equipo está formado por profesionales unidos por el amor hacia los
+                    animales en general y los animales de compañía en particular. Este equipo de
+                    veterinarios altamente cualificados y especializados trabaja bajo la coordinación de
+                    la Doctora Cristeta Cuki, fundadora de la clínica veterinaria en 2010. El compromiso
+                    del equipo profesional se basa en dar calidad de vida a tu mascota.</p>
                 </td>
                 <td style="width:25%"></td>
             </tr>
         </table>
-        <div class="formulario">
-            <form action="">
-                <label for="formControlInput" class="form-label">Nombre</label>
-                <input type="name" class="form-control" id="formControlInput" placeholder="Juan Perez">
-
-                <label for="formControlInput" class="form-label">Telefono</label>
-                <input type="phone" class="form-control" id="formControlInput" placeholder="11 3210 4321">
-
-                <label for="formControlInput" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="formControlInput" placeholder="name@example.com">
-                
-                <label for="comment">Mensaje</label>
-                <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Dejanos tu mensaje"></textarea>
-
-                <input type="submit" class="btn btn-secondary" style="margin-top: 5px">
-            </form>
-        </div>
     </div>
-
+    <div id="img-servicios">
+        <table id="tabla-servicios">
+            <tr>
+                <td style="width:33%">
+                    <img src="img/servicios1.jpg" class="img-servicios1">
+                    <p>3 Consultorios de atención simultáneas para revisiones generales, diagnóstico y controles</p>
+                </td>
+                <td style="width:33%" text>
+                    <img src="img/servicios2.jpg" class="img-servicios1">
+                    <p>Consultas y vacunación a domicilio, el mismo servicio con la comodidad de no trasladar a la mascota hacia nuestra clínica</p>
+                </td>
+                <td style="width:33%">
+                    <img src="img/servicios3.jpg" class="img-servicios1">
+                    <p>Electrocardiograma, interconsultas con Médicos Veterinarios especialistas en Cardiología Servicio de odontología, limpieza de dientes por ultrasonido.</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
 
                 <!--SECCION CONTACTO-->
         <div  id="contacto2">
@@ -90,6 +94,5 @@
             <p class="lead" style="text-align: center;">Veterinaria Cuki - Luis Agote 250 B° Mirador</p>
             <p class="lead" style="text-align: center;">Hecho con <span class="mark">Bootstrap</span> por <a href="#">@clongoni</a></p>
         </div>
-    
 </body>
 </html>
